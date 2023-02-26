@@ -19,4 +19,9 @@ public class TestController {
     public String getForAdmin() {
         return "Hello Admin!";
     }
+
+    @GetMapping("/bye")
+    public String getBye() {
+        return "Bye, bye!";
+    }
 }
